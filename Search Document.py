@@ -1,7 +1,5 @@
 import time
 
-import azurecognitive_search_AzureOpenAI_Test
-
 from langchain.chains import ConversationalRetrievalChain
 from langchain.memory import ConversationBufferMemory
 from langchain_community.retrievers import AzureCognitiveSearchRetriever
